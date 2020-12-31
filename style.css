@@ -1,0 +1,141 @@
+body {
+    background: #232A33;
+    color: #fff;
+}
+
+#nmCurrecy,
+#nmPayment {
+    background: #1A212A;
+    color: #8F9194;
+    border: 0;
+    height: 60px;
+    border-radius: 5px;
+}
+
+#nmCurrecy {
+    width: 100%;
+    padding-left: 100px;
+}
+
+#nmPayment {
+    padding-left: 30px;
+}
+
+/* #nmCurrecy .form-select{
+    background-image: url("arrow-drop.png") !important;
+} */
+.nm-bit-ico {
+    position: relative;
+    padding: 5px 8px;
+    background: #232A33;
+    border-radius: 5px;
+    width: 49px;
+    margin-top: -90px;
+    margin-left: 8px;
+}
+
+.form-select-t {
+    background-image: url(arrow-drop.png) !important;
+    background-repeat: no-repeat !important;
+    background-position: right .75rem center !important;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+.nm-btc {
+    font-size: 17px;
+    color: #8F9194;
+    position: relative;
+    float: right;
+    margin-top: -42px;
+    margin-right: 20px;
+}
+
+.nm-rang {
+    background: #1A212A;
+    padding: 15px 65px 25px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.nm-rang ul {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+.nm-rang li {
+    display: inline-block;
+    width: 33%;
+}
+
+#nmmonth {
+    -webkit-appearance: none !important;
+    width: 100%;
+    height: 15px;
+    background: #232A33 !important;
+    outline: none !important;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+#nmmonth:hover {
+    opacity: 1;
+}
+
+#nmmonth::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    background: #FFB512;
+    cursor: pointer;
+}
+
+#nmmonth::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    background: #FFB512;
+    cursor: pointer;
+}
+
+.nm-drop-result {
+    display: block;
+    position: relative;
+    margin: 0px auto;
+    margin-top: 25px;
+}
+
+.nm-sum {
+    background: #1A212A;
+    padding: 20px;
+    border-radius: 5px;
+    width: 30%;
+    margin: 0px auto;
+    margin-top: 20px;
+}
+
+.nm-sum ul {
+    padding-left: 0;
+    list-style: none;
+    margin-bottom: 0;
+}
+
+.nm-sum ul li {
+    display: inline-block;
+}
+
+.nm-sum ul li img {
+    width: 20px;
+    position: relative;
+    margin-top: -11px;
+}
